@@ -1,8 +1,5 @@
 name: IOS Build
-on:
-  workflow_dispatch:
-  release:
-    types: [published] # only run the workflow when a new release has been published
+on: [push]
 jobs:
   ios-build:
     name: IOS Production Build
