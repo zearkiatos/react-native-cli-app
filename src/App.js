@@ -16,9 +16,10 @@ const App = () => {
     <View style={styles.sectionContainer}>
       <Text style={styles.sectionTitle}>Hello World! 👋🌎</Text>
       <LoginForm />
-      <Greeting name="Pedro" />
-      <Greeting name="Luis" />
-      <Greeting name="Maria" />
+      <Greeting firstname="Pedro" lastname="Capriles" />
+      <Greeting firstname="Luis" lastname="Perez" />
+      <Greeting firstname="Maria" lastname="Rojas" />
+      <Greeting />
     </View>
   );
 };
