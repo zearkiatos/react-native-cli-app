@@ -9,12 +9,16 @@
 import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 import LoginForm from './components/LoginForm';
+import Greeting from './components/Greeting';
 
 const App = () => {
   return (
     <View style={styles.sectionContainer}>
       <Text style={styles.sectionTitle}>Hello World! 👋🌎</Text>
       <LoginForm />
+      <Greeting name="Pedro" />
+      <Greeting name="Luis" />
+      <Greeting name="Maria" />
     </View>
   );
 };

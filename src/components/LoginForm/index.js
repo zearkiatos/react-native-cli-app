@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput, Button, View} from 'react-native';
+import {TextInput, Button, View} from 'react-native';
 
 const LoginForm = () => {
   return (
