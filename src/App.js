@@ -7,22 +7,14 @@
  */
 import 'react-native-gesture-handler';
 import React from 'react';
-import {View, StyleSheet, Text} from 'react-native';
+import {StyleSheet} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
-import LoginForm from './components/LoginForm';
-import Greeting from './components/Greeting';
+import NavigationStack from './navigation/NavigationStack';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <View style={styles.sectionContainer}>
-        <Text style={styles.sectionTitle}>Hello World! 👋🌎</Text>
-        <LoginForm />
-        <Greeting firstname="Pedro" lastname="Capriles" />
-        <Greeting firstname="Luis" lastname="Perez" />
-        <Greeting firstname="Maria" lastname="Rojas" />
-        <Greeting />
-      </View>
+      <NavigationStack />
     </NavigationContainer>
   );
 };
