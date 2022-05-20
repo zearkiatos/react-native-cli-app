@@ -9,12 +9,12 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import {StyleSheet} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
-import NavigationStack from './navigation/NavigationStack';
+import NavigationTab from './navigation/NavigationTab';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <NavigationStack />
+      <NavigationTab />
     </NavigationContainer>
   );
 };
