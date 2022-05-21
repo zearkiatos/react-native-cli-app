@@ -9,12 +9,12 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import {StyleSheet} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
-import NavigationTab from './navigation/NavigationTab';
+import NavigationDrawer from './navigation/NavigationDraw';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <NavigationTab />
+      <NavigationDrawer />
     </NavigationContainer>
   );
 };
